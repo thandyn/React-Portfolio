@@ -7,7 +7,7 @@ function Nav(props) {
     <ul className="menu align-center">
       {pages.map((page) => (
         <li className={`${currentPage.name === page.name}`} key={page.name}>
-          <span onClick={() => setCurrentPage({ name: page.name })}>
+          <span class="nav" onClick={() => setCurrentPage({ name: page.name })}>
             {page.name}
           </span>
         </li>

@@ -1,4 +1,11 @@
 /* navbar */
+.nav {
+  padding: 1rem;
+  font-size: 20px;
+}
+.nav:hover {
+  cursor: pointer;
+}
 
 /* contact me */
 .contact-form {
