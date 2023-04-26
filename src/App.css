@@ -1,3 +1,98 @@
+/* navbar */
+
+/* contact me */
+.contact-form {
+  padding: 200px;
+}
+/* resume */
+.portfolio-resume-spacing {
+  margin-bottom: 2rem;
+}
+
+.portfolio-resume-wrapper {
+  padding: 2rem 4rem;
+}
+
+.portfolio-resume-header {
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e6e6e6;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.portfolio-resume-contact-info {
+  margin-bottom: 0.75rem;
+}
+
+.portfolio-resume-contact-info a {
+  color: #0a0a0a;
+}
+
+.portfolio-resume-contact-info .fa {
+  font-size: 1.4rem;
+  padding-right: 0.8rem;
+  vertical-align: middle;
+  color: #0a0a0a;
+}
+
+
+/* about me */
+.about-me-container{
+  justify-content: center;
+  padding: 5rem, 0rem;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.andy {
+  max-width: 60%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.image-container {
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  padding: 1rem;
+  max-width: 50%;
+  border-radius: 50%;
+}
+
+.text-container {
+  padding: 2rem;
+  max-width: 50%;
+  text-align: center;
+  margin: auto;
+  font-size: 1.2rem;
+}
+/* header */
+.hero-section {
+  background: url("https://images.unsplash.com/photo-1574169208507-84376144848b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3558&q=80") 50% no-repeat;
+  background-size: cover;
+  height: 30vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+/* default */
 .App {
   text-align: center;
 }

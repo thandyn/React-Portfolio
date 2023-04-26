@@ -1,20 +1,17 @@
 import React from "react";
 
-function Nav() {
+function Nav(props) {
+  const { pages = [], setCurrentPage, currentPage } = props;
+
   return (
-    <ul class="menu align-center">
-      <li>
-        <a href="#">About Me</a>
-      </li>
-      <li>
-        <a href="#">Project</a>
-      </li>
-      <li>
-        <a href="#">Contact Me</a>
-      </li>
-      <li>
-        <a href="#">Resume</a>
-      </li>
+    <ul className="menu align-center">
+      {pages.map((page) => (
+        <li className={`${currentPage.name === page.name}`} key={page.name}>
+          <span onClick={() => setCurrentPage({ name: page.name })}>
+            {page.name}
+          </span>
+        </li>
+      ))}
     </ul>
   );
 }

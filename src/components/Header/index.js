@@ -2,9 +2,11 @@ import React from "react";
 
 function Header() {
   return (
-    <header class="align-center">
-      <h1 class="text-center">Andy Nguyen</h1>
-    </header>
+    <div class="hero-section">
+      <div class="hero-section-text">
+        <h1>Andy Nguyen</h1>
+      </div>
+    </div>
   );
 }
 
