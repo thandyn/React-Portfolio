@@ -20,7 +20,7 @@ function ProjectCard({ project }) {
                   xmlns="http://www.w3.org/2000/svg"
                   width="50"
                   height="50"
-                  fill="black"
+                  fill="#B5CBB7"
                   class="bi bi-github"
                   viewBox="0 0 16 16"
                 >
@@ -33,7 +33,7 @@ function ProjectCard({ project }) {
                   xmlns="http://www.w3.org/2000/svg"
                   width="50"
                   height="50"
-                  fill="currentColor"
+                  fill="#B5CBB7"
                   class="bi bi-link"
                   viewBox="0 0 16 16"
                 >

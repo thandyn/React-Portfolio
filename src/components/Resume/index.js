@@ -17,10 +17,6 @@ function Resume() {
             <h5>
               <strong>Front-End Proficiencies</strong>
             </h5>
-            <p>
-              I have crafted the skill of sandcastles growing up on the beaches
-              of Galveston.
-            </p>
             <ul>
               <li>HTML</li>
               <li>CSS</li>
@@ -35,10 +31,6 @@ function Resume() {
             <h5>
               <strong>Back-end Proficiencies</strong>
             </h5>
-            <p>
-              I spent a year at a farm in Ireland raising baby goats. I had to
-              feed them, pet them and play.
-            </p>
             <ul>
               <li>APIs</li>
               <li>Node</li>

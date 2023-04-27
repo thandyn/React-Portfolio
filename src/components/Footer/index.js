@@ -2,16 +2,16 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer class="m-3">
+    <footer>
       <h5>Made by Andy Nguyen</h5>
-      <div class="m-3">
+      <div>
         <a class="m-3" href="https://github.com/thandyn">
           <i class="bi bi-github"></i>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="30"
             height="30"
-            fill="currentColor"
+            fill="#818479"
             class="bi bi-github"
             viewBox="0 0 16 16"
           >
@@ -24,7 +24,7 @@ function Footer() {
             xmlns="http://www.w3.org/2000/svg"
             width="30"
             height="30"
-            fill="currentColor"
+            fill="#818479"
             class="bi bi-linkedin"
             viewBox="0 0 16 16"
           >
@@ -37,7 +37,7 @@ function Footer() {
             xmlns="http://www.w3.org/2000/svg"
             width="30"
             height="30"
-            fill="currentColor"
+            fill="#818479"
             class="bi bi-telephone-fill"
             viewBox="0 0 16 16"
           >
@@ -53,7 +53,7 @@ function Footer() {
             xmlns="http://www.w3.org/2000/svg"
             width="30"
             height="30"
-            fill="currentColor"
+            fill="#818479"
             class="bi bi-envelope-at-fill"
             viewBox="0 0 16 16"
           >
