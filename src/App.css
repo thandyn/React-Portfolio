@@ -1,3 +1,7 @@
+footer {
+  text-align: center;
+  max-height: 100vh;
+}
 /* projectcard */
 .project-card {
   max-width: 540px;
