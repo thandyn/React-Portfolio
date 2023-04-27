@@ -1,23 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
+import ProjectCard from "../ProjectCard";
 
 function Project() {
   const [projects] = useState([
     {
-      name: "Text Editor PWA",
+      name: "Text-Editor-PWA",
       description:
         "A text editor project built as a Progressive Web App (PWA) can be a user-friendly tool that allows users to create, edit, and save text documents in their web browser. It should have a minimalist interface, work offline, save and load files, and potentially allow for sharing and collaboration.",
       link: "https://tranquil-caverns-71777.herokuapp.com/",
       repo: "https://github.com/thandyn/Text-Editor-PWA",
     },
     {
-      name: "Note Taker",
+      name: "Note-Taker",
       description:
         "A note taker project built with Express is a web application that enables users to create, edit, and delete notes. It involves a backend API using Express, a frontend interface, data storage, routing for handling user requests, and may include authentication and authorization features.",
       link: "https://serene-river-32076.herokuapp.com/",
       repo: "https://github.com/thandyn/Note-Taker",
     },
     {
-      name: "Hotels on Demand",
+      name: "Hotels-on-Demand",
       description:
         "This application will help the user that is traveling find a hotel for their desired location. This application will also allow the user to see what the best food options are near that hotel. For this application we incorporated two API's with one used to find a hotel by city and the second used to find nearby resturants to that hotel. The user will be able to find where they can stay and where they can eat in this one application.",
       link: "https://thandyn.github.io/Hotels-on-Demand/",
@@ -31,14 +32,14 @@ function Project() {
       repo: "https://github.com/Quailll/project-2",
     },
     {
-      name: "Weather Dashboard",
+      name: "Weather-Dashboard",
       description:
         "A weather dashboard project demonstrating API usage is a web application that retrieves weather data for a location using a weather API, displays it on a frontend interface with data visualization libraries, and converts location data into coordinates using a geocoding API",
       link: "https://thandyn.github.io/Weather-dashboard/",
       repo: "https://github.com/thandyn/Weather-dashboard",
     },
     {
-      name: "Work Day Schedule Planner",
+      name: "Work-Day-Schedule-Planner",
       description:
         "A work day planner project built using jQuery can be a web application that helps users plan their work day by providing a visual representation of the hours in a day and allowing users to schedule tasks within those hours.",
       link: "https://thandyn.github.io/Day-Planner/",
@@ -50,7 +51,7 @@ function Project() {
     <div>
       <div className="flex-row">
         {projects.map((project, idx) => (
-          <Project project={project} key={"project" + idx} />
+          <ProjectCard project={project} key={"project" + idx} />
         ))}
       </div>
     </div>
