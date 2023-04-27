@@ -1,17 +1,13 @@
 import React from "react";
 
 function ProjectCard({ project }) {
-  const { name, description, link, repo } = project;
+  const { name, description, link, repo, image } = project;
 
   return (
     <div class="card project-card m-3" key={name}>
       <div class="row g-0">
-        <div class="col-md-4">
-          <img
-            src="https://thumbs.dreamstime.com/z/great-stuff-rubber-stamp-grunge-design-dust-scratches-effects-can-be-easily-removed-clean-crisp-look-color-easily-88048074.jpg"
-            class="img-fluid rounded-start"
-            alt="..."
-          />
+        <div class="col-md-4 img-container">
+          <img src={image} class="img-fluid rounded-start" alt="..." />
         </div>
         <div class="col-md-8">
           <div class="card-body">
