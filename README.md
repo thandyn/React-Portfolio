@@ -2,11 +2,12 @@
 By: thandyn
 
 Email: nguyenphuthan@gmail.com
-## Links: https://thandyn.github.io/React-Portfolio/
+
+## Links
 
 Github repo: https://github.com/thandyn/React-Portfolio
 
-Deployed website: 
+Deployed website: https://thandyn.github.io/React-Portfolio/
 
 ## Description
 This project demonstrate building a portfolio using React. 
