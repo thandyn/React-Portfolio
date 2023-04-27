@@ -49,7 +49,7 @@ function Project() {
 
   return (
     <div>
-      <div className="flex-row">
+      <div className="m-3 flex-row d-flex flex-wrap justify-content-evenly">
         {projects.map((project, idx) => (
           <ProjectCard project={project} key={"project" + idx} />
         ))}

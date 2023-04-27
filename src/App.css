@@ -1,3 +1,7 @@
+/* projectcard */
+.project-card {
+  max-width: 540px;
+}
 /* navbar */
 .nav {
   padding: 1rem;
