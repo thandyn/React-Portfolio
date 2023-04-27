@@ -2,7 +2,8 @@
 By: thandyn
 
 Email: nguyenphuthan@gmail.com
-## Links 
+## Links: https://thandyn.github.io/React-Portfolio/
+
 Github repo: https://github.com/thandyn/React-Portfolio
 
 Deployed website: 
